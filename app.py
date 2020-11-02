@@ -2,12 +2,11 @@ from flask import Flask
 import math
 import json
 import numpy as np
-import pymysql
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from vncorenlp import VnCoreNLP
+
 from python_rdrsegmenter import load_segmenter
 from flask import request
 
